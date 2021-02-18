@@ -53,54 +53,11 @@ main{
 
 }
     
-
-.header-logo{
-    grid-area: header-logo; 
-    padding-left: 40px;
-    align-self: center;
-}
-.header-logo a{
-    align-items: center;
-    display: flex;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff; 
-}
-
-
-.header-logo img{
-    width:60px;
-    filter: invert(41%) sepia(86%) saturate(480%) hue-rotate(321deg) brightness(107%) contrast(86%);
-}
-.header-logo span{
-    padding: 15px;
-}
-
-
-
 .nav{
     grid-area: nav;
     justify-self: end;
     align-self: center;
 }
-.header-nav{
-    display:grid;
-    grid-template-columns: repeat(5, auto);
-}
-.header-nav-link{
-    padding: 10px;
-    margin: 15px;
-    font-size:18px;
-    color:#fff;
-    text-decoration: none;
-    align-self: center;
-}
-.header-nav-link:hover{
-    color:#ffc74a;
-    text-decoration: underline;
-}
-
 
 .header-text{
     grid-area: header-text;
@@ -109,21 +66,6 @@ main{
     align-self: start;
     margin-top: 100px;
 }
-    
-
-
-
-
-
-
-
-.search img{
-    width:20px;
-    margin: 25px;
-    filter: invert(79%) sepia(88%) saturate(1347%) hue-rotate(320deg) brightness(104%) contrast(104%);
-    
-}
-
 
 .header-title{
     font-size:92px;
