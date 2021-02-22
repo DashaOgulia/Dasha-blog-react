@@ -21,3 +21,24 @@
     filter: invert(79%) sepia(88%) saturate(1347%) hue-rotate(320deg) brightness(104%) contrast(104%);
     
 }
+
+/*mobile only*/
+@media(max-width:767px){
+    .header-logo, .nav{
+        justify-self: center;
+    }
+    .header-logo img {
+        width: 40px;
+    }
+    .header-nav-link {
+        padding: 3px;
+        margin: 3px;
+    }
+    .search-block input {
+        height: 30px;
+    }
+    .search img {
+        margin: 10px;
+    }
+    
+}

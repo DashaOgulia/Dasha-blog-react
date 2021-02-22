@@ -1,18 +1,11 @@
 import React from 'react'
+import Polind from './Polind/Polind'
+
 
 const Footer= ()=>{
     return(
       <footer>
-          <div className="container polind-block">
-              <div className=" containerbackground polind">
-                  <h1>Polind</h1> 
-              </div>
-              <div className="logo">
-                  <img src="./img/logo.png"/>
-                  <div>All rights reserved by symo.co</div>
-              </div>            
-              
-          </div>
+          <Polind/>
       </footer>
     )
   }

@@ -34,3 +34,11 @@
     background: #bdc8d9;
     color:#fff;
 }
+
+
+/*mobile only*/
+@media(max-width:767px){
+    .header-title-red, .header-title{
+        font-size:70px;
+    }
+}

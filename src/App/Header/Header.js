@@ -7,7 +7,7 @@ import Title from './Title/Title'
 
 
 
-const Header = ()=>{
+const Header = () =>{
     return(
       <header>
         <div className="header-block">
