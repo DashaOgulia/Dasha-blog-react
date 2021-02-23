@@ -1,17 +1,15 @@
 import React from 'react'
 import './FirstBlock.css'
 import search from './img/search.png'
-import poznan from './img/poznan.png'
-import warshawa from './img/warshawa.png'
-import karpach from './img/karpach.png'
-import dolina from './img/dolina.png'
-import wroclaw from './img/wroclaw.png'
-import kozy from './img/kozy.png'
+
+import CityItem from './CityItem'
+import cities from './cities'
 
 
 
 const FirstBlock = () =>{
     return(
+        <>
         <div className="container first-block">
                   <form className = "search-block">
                       <h3>Where you want to go?</h3>
@@ -37,70 +35,29 @@ const FirstBlock = () =>{
                       </div>
                   </div>
   
+
                   <div className="galery-block">
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={poznan}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={warshawa}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={wroclaw}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={karpach}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={dolina}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>
-                      <div className="galery-place">
-                          <div className="img-place">
-                              <img src={kozy}/>
-  
-                          </div>
-                          <h3>Poznan</h3>
-                          <p>Wielkopolskie</p>
-  
-                          <div className="button-white">View offers</div>
-                      </div>      
+                      {
+                          cities.map((city)=>(
+                            <CityItem
+                                key={city.id}
+                                img = {city.img}
+                                city={city.city}
+                                region = {city.region}
+                            /> 
+                          ))
+                      }
+                       
                   </div>
               </div> 
+              </>
     )
+}
+
+
+FirstBlock.defaultProps={
+    region:"no description ...",
+    img:"./img/dolina.png"
 }
 
 export default FirstBlock
