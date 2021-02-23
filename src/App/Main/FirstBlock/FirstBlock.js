@@ -55,9 +55,6 @@ const FirstBlock = () =>{
 }
 
 
-FirstBlock.defaultProps={
-    region:"no description ...",
-    img:"./img/dolina.png"
-}
+
 
 export default FirstBlock

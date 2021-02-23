@@ -17,5 +17,10 @@ const CityItem = (props) =>{
     )
 }
 
+CityItem.defaultProps={
+    region:"no description ...",
+    img:"/img/dolina.png"
+}
+
 
 export default CityItem

@@ -1,7 +1,7 @@
 const cities =[
     {
     id: 1,
-    img:"/poznan.png",
+    img:"./img/poznan.png",
     city:"Poznan",
     region:"Wielkopolskie",
     },
