@@ -35,7 +35,7 @@ const cities =[
     id:6,
     img:"./img/kozy.png",
     city:"Kozy",
-    region:"Slaskie<",
+    region:"Slaskie",
     },
    
 ]

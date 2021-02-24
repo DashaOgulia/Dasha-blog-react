@@ -142,6 +142,9 @@
     .galery-block {
       grid-template-rows: 250px 250px;
     } 
+    .button-white{
+        font-size: 12px;
+    }
 }
 /*mobile only*/
 @media(max-width:767px){
@@ -173,4 +176,11 @@
 }
 
 
+}
+
+/*tablet only*/
+@media(max-width:991px){
+    .button-white{
+        font-size: 10px;
+    }
 }
