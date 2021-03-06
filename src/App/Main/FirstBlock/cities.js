@@ -1,39 +1,39 @@
 const cities =[
     {
     id: 1,
-    img:"./img/poznan.png",
+    img:"/img/poznan 12.45.05.png",
     city:"Poznan",
     region:"Wielkopolskie",
     },
     {
     id:2,
-    img:"./img/warshawa.png",
+    img:"/img/warshawa 12.45.05.png",
     city:"Warszawa",
     region:"Mazowieckie",
     },
 
     {
     id:3,
-    img:"./img/wroclaw.png",
+    img:"/img/wroclaw 12.45.05.png",
     city:"Wroclaw",
     region:"Dolnoslaskie",
     },
     {
     id:4,
-    img:"./img/karpach.png",
+    img:"/img/karpach 12.45.05.png",
     city:"Karpacz",
     region:"Dolnoslaskie",
     },
     {
     id:5,
-   img:"./img/dolina.png",
+   img:"/img/dolina 12.45.05.png",
     city:"Dolina Olczyska",
     region:"Malopolskie",
     },
 
     {
     id:6,
-    img:"./img/kozy.png",
+    img:"/img/kozy 12.45.05.png",
     city:"Kozy",
     region:"Slaskie",
     },
