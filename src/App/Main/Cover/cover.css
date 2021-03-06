@@ -1,0 +1,11 @@
+.cover{
+    background:url(./field.png);
+    background-size: cover;
+    
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.header-subtitle a{
+    color: #ffc74a;
+}

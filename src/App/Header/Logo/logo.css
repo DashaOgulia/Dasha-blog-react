@@ -1,0 +1,22 @@
+.header-logo{
+    grid-area: header-logo; 
+    padding-left: 40px;
+    align-self: center;
+}
+.header-logo a{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.header-logo img{
+    width:60px;
+    filter: invert(41%) sepia(86%) saturate(480%) hue-rotate(321deg) brightness(107%) contrast(86%);
+}
+.header-logo span{
+    padding: 15px;
+}

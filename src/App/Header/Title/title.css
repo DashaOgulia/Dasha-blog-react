@@ -1,0 +1,44 @@
+.header-title{
+    font-size:92px;
+    color:#fff;
+    font-weight: bold;
+    margin-block: 10px;
+    
+}
+.header-title-red {
+    color:#ed6950;
+    font-size:92px;
+    font-weight: bold;
+    margin-block: 10px;
+}
+.header-subtitle{
+    font-size:18px;
+    color:#fff;
+    
+}
+
+.header-button a{
+    padding: 20px 40px;
+    margin: 21px;
+    background: #ffc74a;
+    border-radius: 40px;
+    line-height: 13em;
+    font-size: 14px;
+    color:#b98000;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover{
+    background: #bdc8d9;
+    color:#fff;
+}
+
+
+/*mobile only*/
+@media(max-width:767px){
+    .header-title-red, .header-title{
+        font-size:70px;
+    }
+}

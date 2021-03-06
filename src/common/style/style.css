@@ -1,0 +1,237 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f8f8f9;  
+}
+
+main{
+    display:grid;
+    grid-template-areas: 
+    "slider"
+    "first-block"
+    "second-block"
+    "third-block"
+    "polind-block";
+    row-gap: 60px;
+
+    
+}
+
+/*header*/
+.header-block{
+    grid-area:header-block;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header-menu header-menu header-menu"
+    "header-text header-text header-text";
+    min-height:1000px;
+    grid-template-rows:100px 1fr ;
+    align-items: center;
+    grid-column-gap:20px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/forest.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.header-menu{
+    display:grid;
+    grid-area:header-menu;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "header-logo nav";
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 3;
+    background: rgba(22, 31, 33, 0.2);
+}
+    
+.nav{
+    grid-area: nav;
+    justify-self: end;
+    align-self: center;
+}
+
+.header-text{
+    grid-area: header-text;
+  
+    text-align: center;
+    align-self: start;
+    margin-top: 100px;
+}
+
+/*main*/
+.section{
+    background-color:#fefefe;
+    margin:40px 0px;
+    
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    grid-column-gap:20px;
+    text-align: center;
+    text-align: -webkit-center;
+}
+.first-block{
+    grid-template-rows: 160px 60px 3fr;
+    grid-template-areas: 
+    ". search-block ."
+    ". filter-block ."
+    ". galery-block .";
+}
+
+.second-block{
+    grid-template-areas: 
+    ". third-block .";
+    position: relative;
+}
+
+.containerbackground{
+    position: absolute;
+    width: 100%;
+    font-size: 330px;
+    right: -30px;
+    left:0;
+    top:25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: -1;
+    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 100px #00000017;
+    line-height: 0.7em;
+    padding: 30px;
+    background:#f1f1f152;
+}
+
+.second-block-content {
+    grid-area: third-block;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "title-city title-city"
+        "info-block picture-block";
+        column-gap: 30px;
+}
+    
+.third-block{
+    display:grid;
+    grid-template-areas:
+        ". third-block-content .";
+    grid-template-rows: 640px;
+
+}
+.third-block-content{
+    grid-area: third-block-content;
+}
+
+/*footer*/
+footer{
+    text-align: -webkit-center;
+}
+
+
+.polind-block{
+    display: grid;
+    grid-template-areas: 
+    ". logo .";
+    position: relative;
+    grid-template-rows: 250px;
+}
+
+
+
+
+@media(max-width:1200px){
+
+  main{
+      row-gap: 30px;
+  }
+ 
+}
+
+
+
+
+/*mobile only*/
+@media(max-width:767px){
+    main{
+        row-gap: 5px;
+        justify-items: center;
+    }
+    .container{
+        max-width: 320px;
+        grid-template-columns: 100%;
+    }
+    .header-block{
+        grid-template-areas: 
+        "header-menu"
+        " header-text";
+        grid-template-rows: 120px 1fr;
+        grid-template-columns: 100%;
+        min-height: fit-content;
+    }
+
+    .header-menu{
+        grid-template-areas: 
+        "header-logo"
+        "nav";
+        grid-template-rows: 80px 50px;
+        grid-template-columns: 100%;
+ 
+}   
+    .second-block{
+        grid-template-areas: 
+        "third-block";
+    }
+
+    .third-block{
+        grid-template-areas:
+        "third-block-content";
+    }
+ 
+    .second-block-content {
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "title-city "
+            "picture-block"
+            "info-block";
+        grid-template-rows: auto;
+        row-gap: 10px;
+        margin: 40px;
+    }
+    .third-block{
+        grid-template-areas:
+            "third-block-content";
+        }
+    .polind-block{
+         grid-template-areas: 
+            "logo";
+         }
+ 
+     .button{
+        padding: 15px 40px;
+     }
+    
+    }
+            /*tablet only*/
+@media(max-width:991px){
+    .containerbackground{
+        font-size:180px;
+    }
+
+}  
+ 
+
+
+
+
+
+    

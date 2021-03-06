@@ -1,0 +1,44 @@
+.header-nav{
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+}
+.header-nav-link{
+    padding: 10px;
+    margin: 15px;
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+    align-self: center;
+}
+.header-nav-link:hover{
+    color:#ffc74a;
+    text-decoration: underline;
+}
+
+.search img{
+    width:20px;
+    margin: 25px;
+    filter: invert(79%) sepia(88%) saturate(1347%) hue-rotate(320deg) brightness(104%) contrast(104%);
+    
+}
+
+/*mobile only*/
+@media(max-width:767px){
+    .header-logo, .nav{
+        justify-self: center;
+    }
+    .header-logo img {
+        width: 40px;
+    }
+    .header-nav-link {
+        padding: 3px;
+        margin: 3px;
+    }
+    .search-block input {
+        height: 30px;
+    }
+    .search img {
+        margin: 10px;
+    }
+    
+}

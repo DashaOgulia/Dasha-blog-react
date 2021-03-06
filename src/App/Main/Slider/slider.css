@@ -1,0 +1,120 @@
+
+.slider{
+    display: grid;
+    text-align: center;
+    margin-top: -280px;
+   
+}
+.title{
+    font-size: 18px;
+    color:#fff;
+    
+}
+.slider-block{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 420px;
+    text-align: -webkit-center;
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+.slider-img{
+    display: grid;
+    align-content: flex-end;
+    max-width: 360px;
+    max-height: 420px;
+    display: grid;
+    align-content: end;
+}
+
+.header-title-slider{
+    font-size:48px;
+    font-weight: bold;
+    color:#fff;
+    margin: 5px;
+}
+.header-subtitle-slider{
+    font-size:18px;
+    color:#fff;
+}
+.krakiv{
+    background-image: url(img/krakiv.jpg);
+}
+.zakopane{
+    background-image: url(img/Zakopane.jpg);
+}
+.sandomierz{
+    background-image: url(img/Sandomierz.jpg);
+}
+.sopot{
+    background-image: url(img/Sopot.jpg);
+}
+.dark{
+    background-image: url(img/dark.jpg);
+}
+.fixed-title{
+    padding:60px 10px;
+}
+.fixed-title h3{
+    font-size: 30px;
+    color:#fff;
+    margin: 0px;
+}
+.fixed-title p{
+    color:#ffc74a;
+    font-size:14px;
+    margin:0px;
+}
+
+
+.view-hover{
+    display:none;
+}
+.slider-img:hover .view-hover{
+    display:block;
+}
+.slider-img:hover .fixed-title{
+    display:none;
+}
+
+
+
+
+
+/*tablet only*/
+@media(max-width:991px){
+  
+    .slider-block{
+        grid-template-rows: 300px;
+    }
+    .slider{
+        margin-top: -210px;
+
+    }
+}
+
+@media(max-width:1200px){
+    .header-title-slider{
+        font-size:24px;
+    }
+    .header-subtitle-slider{
+        font-size:14px;
+    }
+    .header-button a {
+      padding: 10px 16px;
+      margin: 14px;
+      background: #ffc74a;
+      font-size:10px;
+    }
+    .view-hover .header-button{
+      width:max-content;
+  
+    }
+}
+
+@media(max-width:767px){
+    .slider{
+        display:none;
+    }
+
+}
