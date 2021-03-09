@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DariaOgulia-blog/static/css/main.02c98cf6.chunk.css",
+    "main.js": "/DariaOgulia-blog/static/js/main.5f737a65.chunk.js",
+    "main.js.map": "/DariaOgulia-blog/static/js/main.5f737a65.chunk.js.map",
+    "runtime-main.js": "/DariaOgulia-blog/static/js/runtime-main.c4c9a4a5.js",
+    "runtime-main.js.map": "/DariaOgulia-blog/static/js/runtime-main.c4c9a4a5.js.map",
+    "static/js/2.6d077a47.chunk.js": "/DariaOgulia-blog/static/js/2.6d077a47.chunk.js",
+    "static/js/2.6d077a47.chunk.js.map": "/DariaOgulia-blog/static/js/2.6d077a47.chunk.js.map",
+    "index.html": "/DariaOgulia-blog/index.html",
+    "static/css/main.02c98cf6.chunk.css.map": "/DariaOgulia-blog/static/css/main.02c98cf6.chunk.css.map",
+    "static/js/2.6d077a47.chunk.js.LICENSE.txt": "/DariaOgulia-blog/static/js/2.6d077a47.chunk.js.LICENSE.txt",
+    "static/media/slider.css": "/DariaOgulia-blog/static/media/krakiv.20e2f327.jpg",
+    "static/media/cover.css": "/DariaOgulia-blog/static/media/field.46df8b62.png",
+    "static/media/style.css": "/DariaOgulia-blog/static/media/forest.ab3012ce.jpeg",
+    "static/media/sandomiercz.39b99393.png": "/DariaOgulia-blog/static/media/sandomiercz.39b99393.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4c9a4a5.js",
+    "static/js/2.6d077a47.chunk.js",
+    "static/css/main.02c98cf6.chunk.css",
+    "static/js/main.5f737a65.chunk.js"
+  ]
+}
