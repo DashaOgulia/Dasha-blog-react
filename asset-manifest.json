@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/DashaOgulia/blog-react-page.git/static/css/main.7dd66b30.chunk.css",
-    "main.js": "/DashaOgulia/blog-react-page.git/static/js/main.c58ee4f0.chunk.js",
-    "main.js.map": "/DashaOgulia/blog-react-page.git/static/js/main.c58ee4f0.chunk.js.map",
-    "runtime-main.js": "/DashaOgulia/blog-react-page.git/static/js/runtime-main.e14c4817.js",
-    "runtime-main.js.map": "/DashaOgulia/blog-react-page.git/static/js/runtime-main.e14c4817.js.map",
-    "static/js/2.aab87079.chunk.js": "/DashaOgulia/blog-react-page.git/static/js/2.aab87079.chunk.js",
-    "static/js/2.aab87079.chunk.js.map": "/DashaOgulia/blog-react-page.git/static/js/2.aab87079.chunk.js.map",
-    "index.html": "/DashaOgulia/blog-react-page.git/index.html",
-    "static/css/main.7dd66b30.chunk.css.map": "/DashaOgulia/blog-react-page.git/static/css/main.7dd66b30.chunk.css.map",
-    "static/js/2.aab87079.chunk.js.LICENSE.txt": "/DashaOgulia/blog-react-page.git/static/js/2.aab87079.chunk.js.LICENSE.txt",
-    "static/media/slider.css": "/DashaOgulia/blog-react-page.git/static/media/krakiv.20e2f327.jpg",
-    "static/media/cover.css": "/DashaOgulia/blog-react-page.git/static/media/field.46df8b62.png",
-    "static/media/style.css": "/DashaOgulia/blog-react-page.git/static/media/forest.ab3012ce.jpeg",
-    "static/media/sandomiercz.39b99393.png": "/DashaOgulia/blog-react-page.git/static/media/sandomiercz.39b99393.png"
+    "main.css": "/DashaOgulia/DariaOgulia-blog.git/static/css/main.430bbe4c.chunk.css",
+    "main.js": "/DashaOgulia/DariaOgulia-blog.git/static/js/main.9b181737.chunk.js",
+    "main.js.map": "/DashaOgulia/DariaOgulia-blog.git/static/js/main.9b181737.chunk.js.map",
+    "runtime-main.js": "/DashaOgulia/DariaOgulia-blog.git/static/js/runtime-main.83b1a7f7.js",
+    "runtime-main.js.map": "/DashaOgulia/DariaOgulia-blog.git/static/js/runtime-main.83b1a7f7.js.map",
+    "static/js/2.9074c7fa.chunk.js": "/DashaOgulia/DariaOgulia-blog.git/static/js/2.9074c7fa.chunk.js",
+    "static/js/2.9074c7fa.chunk.js.map": "/DashaOgulia/DariaOgulia-blog.git/static/js/2.9074c7fa.chunk.js.map",
+    "index.html": "/DashaOgulia/DariaOgulia-blog.git/index.html",
+    "static/css/main.430bbe4c.chunk.css.map": "/DashaOgulia/DariaOgulia-blog.git/static/css/main.430bbe4c.chunk.css.map",
+    "static/js/2.9074c7fa.chunk.js.LICENSE.txt": "/DashaOgulia/DariaOgulia-blog.git/static/js/2.9074c7fa.chunk.js.LICENSE.txt",
+    "static/media/slider.css": "/DashaOgulia/DariaOgulia-blog.git/static/media/krakiv.20e2f327.jpg",
+    "static/media/cover.css": "/DashaOgulia/DariaOgulia-blog.git/static/media/field.46df8b62.png",
+    "static/media/style.css": "/DashaOgulia/DariaOgulia-blog.git/static/media/forest.ab3012ce.jpeg",
+    "static/media/sandomiercz.39b99393.png": "/DashaOgulia/DariaOgulia-blog.git/static/media/sandomiercz.39b99393.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e14c4817.js",
-    "static/js/2.aab87079.chunk.js",
-    "static/css/main.7dd66b30.chunk.css",
-    "static/js/main.c58ee4f0.chunk.js"
+    "static/js/runtime-main.83b1a7f7.js",
+    "static/js/2.9074c7fa.chunk.js",
+    "static/css/main.430bbe4c.chunk.css",
+    "static/js/main.9b181737.chunk.js"
   ]
 }
